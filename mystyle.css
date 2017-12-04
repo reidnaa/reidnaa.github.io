@@ -1,7 +1,7 @@
 body {
   margin:0px;
   font-family: 'Montserrat', sans-serif;
-  padding: 0  0 80px 0;
+  padding: 0  0 30px 0;
   color:#145466;
 }
 
@@ -56,6 +56,22 @@ header h1 {
 .contact i {
   width:10%;
   text-align: center;
+}
+
+
+i.fa.fa-external-link {
+  display:none;
+    padding-left: 15px;
+}
+
+footer {
+    clear: both;
+    margin-left: 40px;
+}
+
+
+a:hover i.fa.fa-external-link{
+  display:inline-block;
 }
 
 h3{
