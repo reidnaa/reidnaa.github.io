@@ -49,6 +49,7 @@ img {
 .block a , .border a{
     text-decoration: none;
     color: #000;
+    word-wrap: break-word;
 }
 
 .under{
