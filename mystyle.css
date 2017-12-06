@@ -11,6 +11,7 @@ body {
   width:35%;
   display:inline-block;
   }
+  @media (max-width:900px){.left{width:90%;}}
 
 .right{
   margin-right:10px;
@@ -19,7 +20,7 @@ body {
   padding:0 20px;
   display:inline-block;
 }
-
+@media (max-width:900px){.right{width:90%;}}
 header{
   width:95%;
   margin:auto;
