@@ -26,6 +26,12 @@ header{
   border-bottom: 1px solid #000;
 }
 
+.title{
+    font-weight: 900;
+    font-style: italic;
+    padding-right: 10px;
+  }
+
 img {
     border-radius: 90px;
     width: 45%;
@@ -33,7 +39,7 @@ img {
 
 .image {
     margin-left: -86px;
-    padding: 53px;
+    padding: 53px 50px 0;
     text-align: center;
 }
 .block a , .border a{
@@ -98,7 +104,9 @@ h3{
 .left h4{
   margin:5px;
 }
+@media(max-width:1015px){.left{width:95%;}}
 
+@media(max-width:1015px){.right{width:95%;}}
 .here {
   font-size:15px;
 }
