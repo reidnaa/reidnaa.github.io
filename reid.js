@@ -1,7 +1,7 @@
 $(function() {
     console.log( "it's go time" );
 
-$('header').fadeIn(5000);
+$('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
   $('#who').on('click', function(){
     $('.summary').siblings().slideUp();

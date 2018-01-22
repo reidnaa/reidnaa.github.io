@@ -16,7 +16,7 @@ header{
   display:none;
   width:95%;
   margin:auto;
-  border-bottom: 1px solid #000;
+
 }
 
 
@@ -198,6 +198,11 @@ h3 {
 
 }
 
+nav{
+  display:none;
+   border-bottom: 1px solid #000;
+}
+
 nav li {
     text-transform: uppercase;
     display: inline-block;
@@ -288,7 +293,23 @@ nav li {
 }
 @media(max-width:1015px){.left{width:95%;}}
 
+
+
+
 @media(max-width:1015px){.right{width:95%;}}
+
+
+@media(max-width:1193px){
+  body{background-size:inherit;}
+
+  .contact{
+    width:100%;
+  }
+  .back{
+    left:0;
+      width:100%;
+    }
+}
 @media(max-width:720px){
 
   header{
