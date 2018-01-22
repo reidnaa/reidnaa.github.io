@@ -4,13 +4,30 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding: 0  0 30px 0;
   color:beige;
-
-  /* #145466; */
   background-image: url('reidanother-min.jpg');
   background-size: cover;
   background-position: 50% 10%;
   background-repeat:no-repeat;
 }
+
+
+
+header{
+  display:none;
+  width:95%;
+  margin:auto;
+  border-bottom: 1px solid #000;
+}
+
+
+
+.contact {
+  display:none;
+    float: right;
+    width: 30%;
+}
+
+
 .skill ul {
     display: inline-block;
     width: 27%;
@@ -45,12 +62,7 @@ body {
   /*display:inline-block;*/
 }
 @media (max-width:900px){.right{display:block;margin-right:0; padding:0;}}
-header{
-  display:none;
-  width:95%;
-  margin:auto;
-  border-bottom: 1px solid #000;
-}
+
 .date{
     float: right;
     margin-right: 20px;
@@ -200,9 +212,7 @@ nav li {
 }
 
 
-@media(max-width:1015px){.left{width:95%;}}
 
-@media(max-width:1015px){.right{width:95%;}}
 .here {
   font-size:15px;
 }
@@ -257,11 +267,7 @@ nav li {
 }
 
 
-.contact {
-  display:none;
-    float: right;
-    width: 30%;
-}
+
 
 .contact .item{
   margin: 0 ;
@@ -271,4 +277,66 @@ nav li {
   margin:8px;
   font-size:15px;
   padding:5px;
+}
+
+@media(max-width:720px){
+  body{
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: 55% 32%;
+  }
+}
+@media(max-width:1015px){.left{width:95%;}}
+
+@media(max-width:1015px){.right{width:95%;}}
+@media(max-width:720px){
+
+  header{
+      text-align:center;
+    }
+
+    .contact{
+      width:100%;
+    }
+
+    nav li{
+      display:block;
+    }
+
+    .back{
+      left:-4px;
+      width:100%;
+
+    }
+
+    .border * , .border span, .border li, .border p{
+      font-size:15px;
+      margin: auto;
+    }
+    img {
+    border-radius: 90px;
+    float: none;
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    right: -15%;
+    margin: auto;
+  }
+
+  .volunteer a{
+    width:100%;
+  }
+
+  .skill ul{
+    width:100%;
+    margin-top: 20px;
+  }
+
+  .left h4{
+    margin:0;
+  }
+
+  .summary p {
+    margin-top:15px;
+  }
 }
