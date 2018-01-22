@@ -9,18 +9,6 @@ $('.contact').slideDown(5000);
 
   });
 
-  // $('#blockblitz').on('click', function(){
-
-  //   var url = "www.blockblitz.live";
-  //   window.location(url);
-
-  // });
-
-
-  function newTab()
-   {
-     window.open('www.blockblitz.live', '_blank', 'toolbar=0,location=0,menubar=0');
-   }
 
  $('#education').on('click', function(){
    $('.education').siblings().slideUp();
