@@ -321,7 +321,9 @@ nav li {
     }
 
     nav li{
-      display:block;
+      display: block;
+      font-size: 25px;
+      padding: 10px;
     }
 
     .back{
@@ -360,4 +362,10 @@ nav li {
   .summary p {
     margin-top:15px;
   }
+
+  .contact p a, .contact p {
+    font-size: 20px;
+      padding: 10px;
+  }
+
 }
