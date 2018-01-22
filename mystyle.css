@@ -355,6 +355,10 @@ nav li {
     margin-top: 20px;
   }
 
+  .skills li {
+    margin-left: 40px;
+  }
+
   .left h4{
     margin:0;
   }
