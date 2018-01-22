@@ -168,8 +168,15 @@ h3 {
   position: absolute;
 }
 
-.experience a{
+.experience  a{
   margin-left:25px;
+}
+
+.experience .one {
+  border-bottom:1px solid beige;
+  border-radius: 0;
+  padding-bottom:30px;
+
 }
 
 .back {
