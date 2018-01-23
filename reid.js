@@ -30,4 +30,13 @@ $('.contact').slideDown(5000);
     $('.volunteer').siblings().slideUp();
     $('.volunteer').slideToggle('slow');
   });
+
+  $('#projects').on('click', function(){
+    $('.projects').siblings().slideUp();
+    $('.projects').slideToggle('slow');
+  });
+
+  $('#cleo').on('click', function(){
+    $('#cleo-image').css('display', 'block');
+  })
 });
