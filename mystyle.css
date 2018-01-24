@@ -383,3 +383,8 @@ nav li {
 #cleo{
   margin-left:0px;
 }
+
+.projects h2{ margin:5px; }
+a:hover{
+  color:#8a8a7c;
+}
