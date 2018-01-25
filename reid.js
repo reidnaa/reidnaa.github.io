@@ -36,19 +36,17 @@ $('.contact').slideDown(5000);
     $('.projects').slideToggle('slow');
   });
 
-
-
-
-
   $('.cleo').on('click', function(){
-
     $('.cleo-image').fadeToggle('slow');
-
   });
 
   $('.cleo-image').on('click', function(){
     $('.cleo-image').fadeOut('slow');
   });
+
+  $('#pdf').on('click', function(){
+     window.open('Reid_Naaykens_resume.pdf', '_blank');
+   });
 });
 
 
