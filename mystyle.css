@@ -177,10 +177,12 @@ h3 {
   margin:25px;
 }
 
-.summary, .education, .volunteer, .experience , .skills , .projects{
+.summary, .education, .volunteer, .experience , .skills , .projects, .cleo-image{
   display:none;
   position: absolute;
 }
+
+
 
 .experience  a{
   margin-left:25px;
@@ -376,11 +378,17 @@ nav li {
 
 }
 
-#cleo-image{
-  display:none;
-  position:absolute;
+.cleo-image{
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    top: 268px;
 }
-#cleo{
+.cleo-image img{
+  width: 58%;
+  padding: 20px;
+}
+
+.border p .cleo{
   margin-left:0px;
 }
 

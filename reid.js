@@ -36,7 +36,25 @@ $('.contact').slideDown(5000);
     $('.projects').slideToggle('slow');
   });
 
-  $('#cleo').on('click', function(){
-    $('#cleo-image').css('display', 'block');
-  })
+
+
+
+
+  $('.cleo').on('click', function(){
+
+    $('.cleo-image').fadeIn('slow');
+     $('.cleo-image').addClass('active');
+  });
+
+  $('.cleo-image').on('click', function(){
+    $('.cleo-image').fadeOut('slow');
+  });
 });
+
+
+
+
+
+
+
+
