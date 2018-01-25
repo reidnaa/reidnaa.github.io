@@ -11,34 +11,39 @@ $('.contact').slideDown(5000);
 
 
  $('#education').on('click', function(){
+  $('.cleo-image').fadeOut('slow');
    $('.education').siblings().slideUp();
     $('.education').slideToggle('slow');
-    $('.cleo-image').fadeOut('slow');
+
   });
 
   $('#experience').on('click', function(){
+    $('.cleo-image').fadeOut('slow');
     $('.experience').siblings().slideUp();
     $('.experience').slideToggle('slow');
-    $('.cleo-image').fadeOut('slow');
+
   });
 
 
   $('#skills').on('click', function(){
+    $('.cleo-image').fadeOut('slow');
     $('.skills').siblings().slideUp();
     $('.skills').slideToggle('slow');
-    $('.cleo-image').fadeOut('slow');
+
   });
 
   $('#volunteer').on('click', function(){
+    $('.cleo-image').fadeOut('slow');
     $('.volunteer').siblings().slideUp();
     $('.volunteer').slideToggle('slow');
-    $('.cleo-image').fadeOut('slow');
+
   });
 
   $('#projects').on('click', function(){
+    $('.cleo-image').fadeOut('slow');
     $('.projects').siblings().slideUp();
     $('.projects').slideToggle('slow');
-    $('.cleo-image').fadeOut('slow');
+
   });
 
   $('.cleo').on('click', function(){

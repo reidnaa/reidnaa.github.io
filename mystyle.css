@@ -377,6 +377,11 @@ nav li {
   }
 
 }
+#blockblitz-image{
+  border-radius: 0;
+  padding: 0px 0px 5px 25px;
+  width:100%;
+}
 
 .cleo-image {
     position: absolute;
@@ -398,4 +403,9 @@ i{
 .projects h2{ margin:5px; }
 a:hover{
   color:#8a8a7c;
+}
+
+.education  p:nth-child(1) {
+  margin-bottom:0 !important;
+
 }
