@@ -378,20 +378,23 @@ nav li {
 
 }
 
-.cleo-image{
+.cleo-image {
     position: absolute;
     background: rgba(0,0,0,0.8);
-    top: 268px;
+    top: 20%;
 }
-.cleo-image img{
-  width: 58%;
-  padding: 20px;
+.cleo-image img {
+    width: 75%;
+    padding: 20px;
 }
 
 .border p .cleo{
   margin-left:0px;
+  cursor: pointer;
 }
-
+i{
+  cursor: pointer;
+}
 .projects h2{ margin:5px; }
 a:hover{
   color:#8a8a7c;

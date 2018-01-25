@@ -42,8 +42,8 @@ $('.contact').slideDown(5000);
 
   $('.cleo').on('click', function(){
 
-    $('.cleo-image').fadeIn('slow');
-     $('.cleo-image').addClass('active');
+    $('.cleo-image').fadeToggle('slow');
+
   });
 
   $('.cleo-image').on('click', function(){
