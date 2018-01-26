@@ -10,6 +10,8 @@ $('.contact').slideDown(5000);
   });
 
 
+
+
  $('#education').on('click', function(){
   $('.cleo-image').fadeOut('slow');
    $('.education').siblings().slideUp();
@@ -55,7 +57,7 @@ $('.contact').slideDown(5000);
   });
 
   $('#pdf').on('click', function(){
-     window.open('Reid_Naaykens_resume.pdf', '_blank');
+     window.open('Reid_Naaykens_resume2018.pdf', '_blank');
    });
 });
 
