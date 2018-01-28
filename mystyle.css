@@ -177,6 +177,13 @@ h3 {
   margin:25px;
 }
 
+.volunteer  div p:last-child {
+
+    border-bottom: 1px dotted beige;
+
+    padding-bottom: 20px;
+}
+
 .summary, .education, .volunteer, .experience , .skills , .projects, .cleo-image{
   display:none;
   position: absolute;
