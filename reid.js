@@ -3,7 +3,7 @@ $(function() {
 
 $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
-  $('#who').on('click', function(){
+  $('.who').on('click', function(){
     $('.summary').siblings().slideUp();
     $('.summary').slideToggle('slow').toggleClass('active');
 
@@ -12,10 +12,10 @@ $('.contact').slideDown(5000);
 
 
 
- $('#education').on('click', function(){
+ $('.education').on('click', function(){
   $('.cleo-image').fadeOut('slow');
    $('.education').siblings().slideUp();
-    $('.education').slideToggle('slow');
+    $('.education-content').slideToggle('slow');
 
   });
 
@@ -55,6 +55,7 @@ $('.contact').slideDown(5000);
   $('.cleo-image').on('click', function(){
     $('.cleo-image').fadeOut('slow');
   });
+
 
   $('#pdf').on('click', function(){
      window.open('Reid_Naaykens_resume2018.pdf', '_blank');

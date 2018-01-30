@@ -184,7 +184,12 @@ h3 {
     padding-bottom: 20px;
 }
 
-.summary, .education, .volunteer, .experience , .skills , .projects, .cleo-image{
+.next{
+  float:right;
+  cursor: pointer;
+}
+
+.summary, .education-content, .volunteer, .experience , .skills , .projects, .cleo-image{
   display:none;
   position: absolute;
 }
@@ -296,10 +301,9 @@ nav li {
 }
 
 @media(max-width:720px){
-  body{
-    background-size: inherit;
+  body {
     background-repeat: no-repeat;
-    background-position: 55% 32%;
+    background-position: 61% 25%;
   }
 }
 @media(max-width:1015px){.left{width:95%;}}
