@@ -3,18 +3,16 @@ $(function() {
 
 $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
-  $('.who').on('click', function(){
+
+
+  $('#who').on('click', function(){
     $('.summary').siblings().slideUp();
     $('.summary').slideToggle('slow').toggleClass('active');
-
   });
 
-
-
-
- $('.education').on('click', function(){
+ $('#education').on('click', function(){
   $('.cleo-image').fadeOut('slow');
-   $('.education').siblings().slideUp();
+   $('.education-content').siblings().slideUp();
     $('.education-content').slideToggle('slow');
 
   });
