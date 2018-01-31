@@ -7,7 +7,7 @@ $('.contact').slideDown(5000);
 
   $('#who').on('click', function(){
     $('.summary').siblings().slideUp();
-    $('.summary').slideToggle('slow').toggleClass('active');
+    $('.summary').slideToggle('slow');
   });
 
  $('#education').on('click', function(){
