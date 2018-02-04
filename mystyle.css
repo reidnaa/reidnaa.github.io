@@ -13,7 +13,6 @@ body {
 
 a{ text-decoration: none; }
 
-
 header{
   color:beige;
   display:none;
@@ -22,12 +21,45 @@ header{
 
 }
 
+.special img{
+    float: right;
+    width: 48%;
+    position: relative;
+    right: -69px;
+    top: -100px;
+transition:  2s;
+}
 
+
+.special img:hover{
+ transition:  2s;
+
+  right:-34px;
+
+}
+.question, .call{display:none;}
+.hey-kid{
+
+  font-size:12px;
+    position: absolute;
+    top: -60px;
+    right: 83px;
+}
+.special{
+  display:none;
+  position: absolute;
+  right:0;
+  }
+
+nav ul{
+  margin-bottom:0;
+}
 
 .contact {
   display:none;
     float: right;
     width: 30%;
+    margin-top: 50px;
 }
 
 
@@ -114,7 +146,9 @@ header h1 {
     display: inline-block;
 }
 
-
+.corner{
+  cursor: pointer;
+}
 .contact i {
   width:10%;
   text-align: center;
@@ -221,11 +255,16 @@ nav{
 }
 
 nav li {
+    border-radius: 10px;
     text-transform: uppercase;
     display: inline-block;
-    padding-right: 30px;
+    padding:10px 30px;
     cursor: pointer;
     list-style: none;
+}
+
+.dark{
+  background:rgba(0,0,0,.8);
 }
 
 .left h4 {
