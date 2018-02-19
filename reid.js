@@ -80,11 +80,11 @@ setTimeout(
 
   });
 
-  $('.cleo').on('click', function(){
+  $('.cleo').on('mouseover', function(){
     $('.cleo-image').fadeToggle('slow');
   });
 
-  $('.cleo-image').on('click', function(){
+  $('.cleo').on('mouseleave', function(){
     $('.cleo-image').fadeOut('slow');
   });
 
