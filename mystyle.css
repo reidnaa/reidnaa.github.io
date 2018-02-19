@@ -45,7 +45,7 @@ transition:  2s;
 .special img:hover{
  transition:  2s;
 
-  right:-34px;
+  right:-20px;
 
 }
 .question, .call{display:none;}
