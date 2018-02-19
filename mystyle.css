@@ -20,12 +20,21 @@ header{
   margin:auto;
 
 }
+.icon{
+  float: left;
 
+}
+
+.bone {
+    width: 77px;
+    padding: 11px;
+    padding-right: 25px;
+}
 .special img{
     float: right;
     width: 48%;
     position: relative;
-    right: -69px;
+    right: -48px;
     top: -100px;
 transition:  2s;
 }
@@ -131,12 +140,12 @@ nav ul{
 
 .treehouse{
     width: 10%;
-    float: left;
+
     padding-right: 20px;
 }
 
 .shopify{
-  float:left;
+
   width:10%;
   padding-right: 20px;
 }
@@ -159,7 +168,7 @@ nav ul{
     word-wrap: break-word;
 }
 
-.border div{padding:1px;}
+.border div{padding:1px;clear:both;}
 
 .under{
   border-bottom:1px solid #ddd;
