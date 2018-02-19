@@ -1,5 +1,5 @@
 body {
-
+  overflow: hidden;
   margin:0px;
   font-family: 'Montserrat', sans-serif;
   padding: 0  0 30px 0;
