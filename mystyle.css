@@ -490,7 +490,10 @@ nav li:hover{color:#bfcafd ;}
 i{
   cursor: pointer;
 }
-.projects h2{ margin:5px; }
+.projects h2 {
+    margin: 5px;
+    display: inline-block;
+}
 a:hover{
   color:#8a8a7c;
 }
