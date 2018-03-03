@@ -260,7 +260,7 @@ h3 {
   cursor: pointer;
 }
 
-.summary, .education-content, .volunteer, .experience , .skills , .projects, .cleo-image{
+.summary, .education-content, .volunteer, .experience , .skills , .projects{
   display:none;
   position: absolute;
 }
@@ -475,9 +475,12 @@ nav li:hover{color:#bfcafd ;}
 .cleo-image {
     position: absolute;
     background: rgba(0,0,0,0.8);
-    top: 0;
-    width:80%;
+    top: 63%;
+    left: 100%;
+    width: 40%;
 }
+
+
 .cleo-image img {
     width: 90%;
     padding: 20px;
@@ -502,3 +505,23 @@ a:hover{
   margin-bottom:0 !important;
 
 }
+
+ .cleo-image{opacity:0;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;}
+
+
+#snore:hover  .cleo-image{
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  opacity: 1;
+}
+
+ 
+

@@ -46,13 +46,13 @@ setTimeout(
   });
 
  $('#education').on('click', function(){
-  $('.cleo-image').fadeOut('slow');
+   
    $('.education-content').siblings().slideUp();
     $('.education-content').slideToggle('slow');
   });
 
   $('#experience').on('click', function(){
-    $('.cleo-image').fadeOut('slow');
+     
     $('.experience').siblings().slideUp();
     $('.experience').slideToggle('slow');
 
@@ -60,34 +60,27 @@ setTimeout(
 
 
   $('#skills').on('click', function(){
-    $('.cleo-image').fadeOut('slow');
+   
     $('.skills').siblings().slideUp();
     $('.skills').slideToggle('slow');
 
   });
 
   $('#volunteer').on('click', function(){
-    $('.cleo-image').fadeOut('slow');
+     
     $('.volunteer').siblings().slideUp();
     $('.volunteer').slideToggle('slow');
 
   });
 
   $('#projects').on('click', function(){
-    $('.cleo-image').fadeOut('slow');
+    
     $('.projects').siblings().slideUp();
     $('.projects').slideToggle('slow');
 
   });
 
-  $('.snore').on('mouseover', function(){
-    $('.cleo-image').fadeToggle('slow');
-  });
-
-  $('.snore').on('mouseleave', function(){
-    $('.cleo-image').fadeOut('slow');
-  });
-
+  
 
   $('#pdf').on('click', function(){
      window.open('Reid_Naaykens_resume2018.pdf', '_blank');
