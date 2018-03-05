@@ -564,3 +564,5 @@ a:hover{
     width: calc(100% - 168px);
     float: right;
 }
+
+.single{display:block !important;}
