@@ -26,7 +26,7 @@ header{
 }
 
 .bone {
-    width: 77px;
+    width: 90%;
     padding: 11px;
     padding-right: 25px;
 }
@@ -139,14 +139,14 @@ nav ul{
 }
 
 .treehouse{
-    width: 10%;
+    width: 100%;
 
     padding-right: 20px;
 }
 
 .shopify{
 
-  width:10%;
+  width:100%;
   padding-right: 20px;
 }
 
@@ -168,7 +168,7 @@ nav ul{
     word-wrap: break-word;
 }
 
-.border div{padding:1px;clear:both;}
+.border div{padding:1px;clear:both;display:inline-block;}
 
 .under{
   border-bottom:1px solid #ddd;
@@ -245,7 +245,7 @@ h3 {
 .back p{
   font-size:20px;
   line-height: 28px;
-  margin:25px;
+ 
 }
 
 .volunteer  div p:last-child {
@@ -475,8 +475,8 @@ nav li:hover{color:#bfcafd ;}
 .cleo-image {
     position: absolute;
     background: rgba(0,0,0,0.8);
-    top: 63%;
-    left: 100%;
+    left: 50%;
+    top: 75%;
     width: 40%;
 }
 
@@ -513,6 +513,8 @@ a:hover{
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;}
 
+  #snore{width:100%;}
+
 
 #snore:hover  .cleo-image{
   -webkit-transition: all 2s ease-in-out;
@@ -522,6 +524,43 @@ a:hover{
   transition: all 2s ease-in-out;
   opacity: 1;
 }
+/* this stuff */
+.card-container {
+    cursor: pointer;
+    height: 156px;
+    perspective: 600px;
+    position: relative;
+    display: inline-block !important;
+    width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  font-size:20px;
+  background: transparent;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
 
- 
-
+.after-image {
+    width: calc(100% - 168px);
+    float: right;
+}
