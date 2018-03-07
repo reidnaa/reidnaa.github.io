@@ -501,8 +501,9 @@ a:hover{
 }
 
 .after-image {
-    width: calc(100% - 168px);
+    width: calc(100% - 152px);
     float: right;
+    transform: translatex(20px);
 }
 
 .single{display:block !important;}
@@ -583,3 +584,5 @@ a:hover{
     width: 70%;
     padding-left: 20px;
 }
+
+
