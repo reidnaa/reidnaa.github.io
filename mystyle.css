@@ -130,13 +130,7 @@ nav ul{
 
 .upper{text-transform: uppercase;}
 
-.reid_lsd{
-    border-radius: 50%;
-    float: left;
-    width: 20%;
-    padding: 20px;
 
-}
 
 
 
@@ -493,7 +487,7 @@ a:hover{
 }
 .card .back {
   font-size:20px;
-  background: transparent;
+  background: black;
   color: #0087cc;
   line-height: 150px;
   text-align: center;
@@ -586,3 +580,14 @@ a:hover{
 }
 
 
+.reid_lsd{
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    padding: 20px;
+
+}
+
+@media(max-width: 720px){
+  .reid_lsd{width:50% !important;}
+}
