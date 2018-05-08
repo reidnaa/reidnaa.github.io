@@ -1,7 +1,7 @@
 $(function() {
     console.log( "it's go time" );
 
-/*
+
 setTimeout(
   function()
   {
@@ -9,7 +9,7 @@ setTimeout(
   }, 2000);
 
 
-*/
+
 
 setTimeout(
   function()
