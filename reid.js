@@ -2,15 +2,16 @@ $(function() {
     console.log( "it's go time" );
 
 
+///////////////
 setTimeout(
   function()
   {
     $('.overlay').fadeOut(2000);
   }, 2000);
+///////////////
 
 
-
-
+///////////
 setTimeout(
   function()
   {
@@ -27,7 +28,7 @@ setTimeout(
       $('.call').fadeIn('slow');
     },3000);
   }, 3000);
-
+//////////////////
 
 
  $('.corner').on('click', function(){
@@ -50,6 +51,8 @@ setTimeout(
    });
 
 
+
+ 
 
   $('#who').on('click', function(){
     $('.summary').siblings().slideUp();
