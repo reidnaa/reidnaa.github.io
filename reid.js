@@ -2,11 +2,22 @@ $(function() {
     console.log( "it's go time" );
 
 
+setTimeout(
+  function()
+  {
+    $('.overlay').fadeOut(4000);
+  }, 4000);
 
+
+
+
+setTimeout(
+  function()
+  {
 
 $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
-
+}, 4000);
 
 setTimeout(
   function()
@@ -86,11 +97,3 @@ setTimeout(
      window.open('Reid_Naaykens_resume2018.pdf', '_blank');
    });
 });
-
-
-
-
-
-
-
-
