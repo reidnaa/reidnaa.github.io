@@ -5,8 +5,8 @@ $(function() {
 setTimeout(
   function()
   {
-    $('.overlay').fadeOut(4000);
-  }, 4000);
+    $('.overlay').fadeOut(2000);
+  }, 2000);
 
 
 
@@ -17,7 +17,7 @@ setTimeout(
 
 $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
-}, 4000);
+}, 2000);
 
 setTimeout(
   function()
@@ -25,8 +25,8 @@ setTimeout(
     $('.special').fadeIn(9000);
     setTimeout(function(){
       $('.call').fadeIn('slow');
-    },5000);
-  }, 5000);
+    },3000);
+  }, 3000);
 
 
 
