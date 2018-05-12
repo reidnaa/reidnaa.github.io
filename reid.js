@@ -59,6 +59,30 @@ setTimeout(
     $('.summary').slideToggle('slow');
   });
 
+  var w = $(window).width();
+
+  if( w < 600){// checks if it is mobile
+     
+    // this will look for an element that has the same 
+    //data attribute value as the link you clicked on and scroll to it
+
+      $(".nav-link").on('click', function() { 
+         // $('div').find('.back').slideUp('slow');
+
+        
+         var data =  $(this).attr('data-relation');
+console.log("this is  ", data);
+         var connect = $('.back').val(data);
+         console.log("this is ", connect);
+        let position = $(connect).offset().top; 
+        $("HTML, BODY").animate({ scrollTop: position }, 1000); });
+  
+   
+
+  }
+
+
+
  $('#education').on('click', function(){
    
    $('.education-content').siblings().slideUp();

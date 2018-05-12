@@ -16,7 +16,7 @@
 </script>
 
 
-  
+
   <script type="text/javascript" src="reid.js"></script>
 
   <title>Reid Naaykens Junior Web Developer Resume 2018</title>
@@ -28,7 +28,7 @@
 </head>
 <body>
   <div class="background-img"></div>
-  <div class="overlay"><div class="made-it">You made it. </div></div>
+  <div class="overlay"><div class="made-it">Let's do this. </div></div>
   <a href="index.html"><header>
   <h1 class="name">Reid <span class="thin">Naaykens</span></h1>
 
@@ -46,14 +46,14 @@
 
   <img class="corner" src="creepy-smooth.png" alt="special stuff"/>
 </div>
-<nav>
+<nav id="nav">
     <ul>
-      <li id="who">WHO</li>
-      <li id="education">Bootcamp</li>
-      <li id="experience">Experience</li>
-      <li id="skills">Skills</li>
-      <li id="volunteer">Volunteering</li>
-      <li id="projects">Projects</li>
+      <li class="nav-link" data-relation="who" id="who">WHO</li>
+      <li class="nav-link" data-relation="boot" id="education">Bootcamp</li>
+      <li class="nav-link" data-relation="experience" id="experience">Experience</li>
+      <li class="nav-link" data-relation="skills" id="skills">Skills</li>
+      <li class="nav-link" data-relation="volunteer" id="volunteer">Volunteering</li>
+      <li class="nav-link" data-relation="projects" id="projects">Projects</li>
       <li id="pdf">Resume</li>
     </ul>
   </nav>
@@ -78,7 +78,7 @@
   </div>
 <div class="left">
 
-  <div class="summary back">
+  <div class="summary back" id="summary" data-relation="who">
   <h3 class="item">Who...</h3>
   <div class="border">
     <img class="reid_lsd" src="reid_lsd.png">
@@ -145,7 +145,10 @@ Looking for a Junior Developer role to use my new skills and build upon them. Ho
 
 </div>
 </div>
-<div class="education-content back">
+
+
+
+<div class="education-content back" data-relation="boot">
 
   <h3 class="item">Bootcamp</h3>
   <div class="border guy">
@@ -159,12 +162,11 @@ Looking for a Junior Developer role to use my new skills and build upon them. Ho
 </div>
 
 
-
   </div>
 
 
 
-  <div class="experience back">
+  <div class="experience back" data-relation="experience">
 <h3 class="item">Experience</h3>
 
 <div class="border one">
@@ -198,8 +200,9 @@ each employee's strengths</li>
 prevention, and WHMIS- safety services amongst others</li>
 </ul>
 </div>
+
 </div>
-<div class="skills back" >
+<div class="skills back" data-relation="skills">
 <h3 class="item">Skills</h3>
 <div class="border guy skill">
 
@@ -261,10 +264,9 @@ prevention, and WHMIS- safety services amongst others</li>
 
 
   </div>
-
 </div>
 
-<div class="projects back">
+<div class="projects back" data-relation="projects">
   <div>
    <h3 class="item">Projects</h3>
   </div>
@@ -281,7 +283,7 @@ prevention, and WHMIS- safety services amongst others</li>
 </div>
 
 
-<div class="volunteer back">
+<div class="volunteer back" data-relation="volunteer" >
   <div>
   <h3 class="item">Volunteering</h3>
   </div>
