@@ -71,13 +71,20 @@ setTimeout(
 
         
          var data =  $(this).attr('data-relation');
-console.log("this is  ", data);
          var connect = $('.back').val(data);
-         console.log("this is ", connect);
         let position = $(connect).offset().top; 
+        connect.addClass('active');
         $("HTML, BODY").animate({ scrollTop: position }, 1000); });
   
-   
+    $('.border').append('<span class="back-to-menu">Back to menu</span>');
+
+    $('.back-to-menu').on('click', function(){
+      let position = $('body').offset().top; 
+      $("HTML, BODY").animate({ scrollTop: position }, 500); 
+
+      $(this).closest('.back').slideUp('slow').removeClass('active');
+
+    });
 
   }
 
