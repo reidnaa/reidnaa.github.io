@@ -2,6 +2,9 @@ $(function() {
     console.log( "it's go time" );
 
 
+// Reloads page on resize
+$(window).resize(function(){location.reload();});
+
 ///////////////
 setTimeout(
   function()
@@ -20,6 +23,8 @@ $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
 }, 2000);
 
+
+/*
 setTimeout(
   function()
   {
@@ -28,7 +33,7 @@ setTimeout(
       $('.call').fadeIn('slow');
     },3000);
   }, 3000);
-//////////////////
+/////////////////*/
 
 
  $('.corner').on('click', function(){
@@ -88,6 +93,26 @@ setTimeout(
 
   }
 
+
+  if( w < 800){
+    $('.back-to-menu').css('display', 'block');
+    $('.contact').append('<span class="back-to-menu">Back to menu</span>');
+
+    $('.back-to-menu').on('click', function(){
+      let position = $('body').offset().top; 
+      $("HTML, BODY").animate({ scrollTop: position }, 500); });
+
+    $('nav ul').append('<li class="nav-link" id="contact" data-relation="contact" >contact</li>');
+     
+      $('#contact').on('click', function(){
+
+        $('html, body').animate({
+        scrollTop: $(".contact").offset().top
+    }, 2000);
+      });
+
+
+  }
 
 
  $('#education').on('click', function(){
