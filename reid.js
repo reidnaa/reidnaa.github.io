@@ -2,8 +2,7 @@ $(function() {
     console.log( "it's go time" );
 
 
-// Reloads page on resize
-$(window).resize(function(){location.reload();});
+
 
 ///////////////
 setTimeout(
