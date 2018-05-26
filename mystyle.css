@@ -770,6 +770,27 @@ span.who-row {
     font-size: 1rem;
   }
 
+  .education-content img{
+    position: relative;
+    padding-left: 0 !important;
+    right: 0 !important;
+  }
+
+  .education-content .guy{
+      padding:20px;
+  }
+
+  .single{
+    border-bottom: 1px solid beige;
+    margin-bottom:20px;
+    padding-bottom:20px;
+  }
+
+  .projects .border a, .projects h2{
+    display:block;
+  }
+
+
 }
 
 
