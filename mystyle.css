@@ -584,7 +584,8 @@ a:hover{
 }
 
   .back-to-menu{
-display:none;
+display:none !important;
+visibility: hidden;
 }
 
 span.who-row {
@@ -744,6 +745,10 @@ span.who-row {
   transform:translateX(-20px);
 }
 
+.back-to-menu{
+  display: block !important;
+  visibility: visible;
+}
 
 }
 
