@@ -756,10 +756,24 @@ span.who-row {
             animation: fadein 15s;
   }
 
+  .contact .back-to-menu{
+    overflow-x: hidden;
+    -webkit-animation: fadein 15s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 15s; /* Firefox < 16 */
+    -ms-animation: fadein 15s; /* Internet Explorer */
+    -o-animation: fadein 15s; /* Opera < 12.1 */
+    animation: fadein 15s;
+
+  }
+
   .bone {
       
       padding-right: 25px;
       padding-left: 17px;
+  }
+
+  .contact p a, .contact p {
+    font-size: 1rem;
   }
 
 }
