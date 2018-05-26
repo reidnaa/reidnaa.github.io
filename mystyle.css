@@ -716,6 +716,7 @@ span.who-row {
     padding: 20px;
     width: 49% !important;
     margin-top: 15px;
+    transform: translateX(20px);
 }
 
 .side img {
@@ -733,6 +734,19 @@ span.who-row {
     margin: auto;
 }
 
-.text{display:none !important;}
+.text{
+  display:none !important;
+}
+
+
+.after-image{
+  text-align: center !important;
+  transform:translateX(-20px);
+}
+
 
 }
+
+
+
+
