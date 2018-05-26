@@ -650,111 +650,117 @@ span.who-row {
     padding: 20px;
     right: -15%;
     margin: auto;
+    }
+
+    .volunteer a{
+      width:100%;
+    }
+
+    .skill ul{
+      width:100%;
+      margin-top: 20px;
+    }
+
+    .skills li {
+      margin-left: 40px;
+    }
+
+    .left h4{
+      margin:0;
+    }
+
+    .summary p {
+      margin-top:15px;
+    }
+
+    .contact p a, .contact p {
+      font-size: 20px;
+        padding: 10px;
+    }
+
+  .summary .item {  
+      font-size: 1rem;    
+  }
+    
+    .active .back-to-menu{
+      display:block;
+    }
+    .back-to-menu{
+      cursor: pointer;
+
+      padding:10px;
+      background-color:beige;
+      color:black;
+      position:fixed;
+      bottom:0;
+      left: 80%;
+      border-radius: 50% 0 0 0;
+
+    }
+
+    .contact .back-to-menu {
+      position: absolute;
+      right: -20px;
+      bottom: -31px;
+    }
+
+    .left h3 {   
+      text-align: left;
+      }
+
+   .who-p{
+    padding-left:20px;
+   }
+
+   .reid_lsd {
+      border-radius: 50%;
+      padding: 20px;
+      width: 49% !important;
+      margin-top: 15px;
+      transform: translateX(20px);
   }
 
-  .volunteer a{
+  .side img {
+      border-radius: 0;
+      width: 16%;
+      transform: translatex(73%);
+  }
+
+  .card-container{
     width:100%;
-  }
-
-  .skill ul{
-    width:100%;
-    margin-top: 20px;
-  }
-
-  .skills li {
-    margin-left: 40px;
-  }
-
-  .left h4{
-    margin:0;
   }
 
   .summary p {
-    margin-top:15px;
+      width: 87%;
+      margin: auto;
   }
 
-  .contact p a, .contact p {
-    font-size: 20px;
-      padding: 10px;
+  .text{
+    display:none !important;
   }
 
-.summary .item {  
-    font-size: 1rem;    
-}
-  
-  .active .back-to-menu{
-    display:block;
+
+  .after-image{
+    text-align: center !important;
+    transform:translateX(-20px);
   }
+
   .back-to-menu{
-    cursor: pointer;
-
-    padding:10px;
-    background-color:beige;
-    color:black;
-    position:fixed;
-    bottom:0;
-    left: 80%;
-    border-radius: 50% 0 0 0;
-
+    display: block !important;
+    visibility: visible;
+     overflow-x: hidden;
+    -webkit-animation: fadein 15s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 15s; /* Firefox < 16 */
+        -ms-animation: fadein 15s; /* Internet Explorer */
+         -o-animation: fadein 15s; /* Opera < 12.1 */
+            animation: fadein 15s;
   }
 
-  .contact .back-to-menu {
-    position: absolute;
-    right: -20px;
-    bottom: -31px;
+  .bone {
+      
+      padding-right: 25px;
+      padding-left: 17px;
   }
-
-  .left h3 {   
-    text-align: left;
-    }
-
- .who-p{
-  padding-left:20px;
- }
-
- .reid_lsd {
-    border-radius: 50%;
-    padding: 20px;
-    width: 49% !important;
-    margin-top: 15px;
-    transform: translateX(20px);
-}
-
-.side img {
-    border-radius: 0;
-    width: 16%;
-    transform: translatex(73%);
-}
-
-.card-container{
-  width:100%;
-}
-
-.summary p {
-    width: 87%;
-    margin: auto;
-}
-
-.text{
-  display:none !important;
-}
-
-
-.after-image{
-  text-align: center !important;
-  transform:translateX(-20px);
-}
-
-.back-to-menu{
-  display: block !important;
-  visibility: visible;
-}
-
-.bone {
-    
-    padding-right: 25px;
-    padding-left: 17px;
-}
 
 }
 
