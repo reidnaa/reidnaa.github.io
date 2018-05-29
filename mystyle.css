@@ -386,7 +386,7 @@ nav li:hover{color:#bfcafd ;}
 
 #blockblitz-image{
   border-radius: 0;
-  padding: 0px 0px 5px 25px;
+  padding: 0 0 5px 0;
   width:100%;
 }
 
