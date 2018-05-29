@@ -2,7 +2,9 @@ $(function() {
     console.log( "it's go time" );
 
 
+var w = $(window).width();
 
+  if( w > 800){
 
     //Check to see if the window is top if not then display button
     $(window).scroll(function(){
@@ -19,7 +21,7 @@ $(function() {
         $('html, body').animate({scrollTop : 0},800);
         return false;
     });
-
+}
 
 
 ///////////////
