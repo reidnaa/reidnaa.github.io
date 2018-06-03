@@ -22,6 +22,10 @@ header{
 
 }
 
+.js30{
+  width:100%;
+}
+
 .scrollToTop{
     width:130px; 
     height:30px;
@@ -497,7 +501,7 @@ a:hover{
     font-size: 1rem;
     background: black;
     color: #0087cc;
-    line-height: 116px;
+    line-height: 80px;
     text-align: center;
     transform: rotateY(180deg);
     width: 100%;
