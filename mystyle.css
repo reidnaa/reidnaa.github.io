@@ -240,7 +240,7 @@ h3 {
 }
 .job-title{color: #bfcafd;}
 
-.volunteer{
+.volunteer, .progress-content{
   display:none;
 }
 .border{

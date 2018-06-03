@@ -75,7 +75,6 @@ setTimeout(
    });
 
 
-
  
 
   $('#who').on('click', function(){
@@ -132,6 +131,11 @@ setTimeout(
 
 
   }
+
+  $('.see').on('click', function(){
+    $('.progress-content').slideToggle('slow');
+  });
+
 
 
  $('#education').on('click', function(){
