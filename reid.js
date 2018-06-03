@@ -25,15 +25,21 @@ var w = $(window).width();
 
 
 ///////////////
+
+
 setTimeout(
   function()
   {
     $('.overlay').fadeOut(2000);
   }, 2000);
+
+
 ///////////////
 
 
 ///////////
+
+
 setTimeout(
   function()
   {
