@@ -243,6 +243,15 @@ h3 {
 .volunteer, .progress-content{
   display:none;
 }
+
+
+.progress-content.back {
+    position: absolute;
+    z-index: 999999;
+    background: rgba(0,0,0,1);
+    top: 119%;
+}
+
 .border{
 
   border-radius:10px;
