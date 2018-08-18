@@ -46,7 +46,16 @@ header{
     color:#bfcafd;
     text-decoration:none;
 }
-
+.back-to-home{
+    cursor: pointer;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 80%;
+    border-radius: 50% 0 0 0;
+  }
 
 .bone {
     width: 90%;
@@ -827,6 +836,10 @@ span.who-row {
 
   .projects .border a, .projects h2{
     display:block;
+  }
+
+  .progress-js30 {
+    width: 81%;
   }
 
 
