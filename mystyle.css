@@ -666,6 +666,8 @@ span.who-row {
 /* Mobile Styles */
 
 @media(max-width:720px){
+
+  .twitter{display:none;}
   body {
     background-repeat: no-repeat;
     background-position: 61% 25%;
