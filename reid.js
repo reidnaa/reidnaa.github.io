@@ -39,14 +39,17 @@ setTimeout(
 
 ///////////
 
-
+$('.timeline-Widget').css('background-color','transparent');
 setTimeout(
   function()
   {
 
 $('header, nav').fadeIn(5000);
 $('.contact').slideDown(5000);
+$('.twitter').slideDown(5000);
+
 }, 2000);
+
 
 
 /*

@@ -653,6 +653,16 @@ span.who-row {
     text-decoration: underline;
 }
 
+
+
+.twitter{
+    display:none;
+    float: left;
+    margin-top: 102px;
+}
+
+
+
 /* Mobile Styles */
 
 @media(max-width:720px){
