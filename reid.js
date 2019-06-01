@@ -45,7 +45,7 @@ setTimeout(
   {
 
 $('header, nav').fadeIn(5000);
-$('.contact').slideDown(5000);
+$('.contact').fadeIn(5000);
 $('.twitter').slideDown(5000);
 
 }, 2000);
@@ -182,6 +182,6 @@ setTimeout(
   
 
   $('#pdf').on('click', function(){
-     window.open('Reid_Naaykens_resume2018.pdf', '_blank');
+     window.open('Reid_Naaykens_Resume_2019.pdf', '_blank');
    });
 });
