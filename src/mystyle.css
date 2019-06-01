@@ -586,7 +586,7 @@ a:hover{
     left: 0;
     z-index: -1;
     right: 0;
-    background-image: url(reidanother-min.jpg);
+    background-image: url(../images/reidanother-min.jpg);
     background-size: cover;
     background-position: 50% 10%;
     background-repeat:no-repeat;
