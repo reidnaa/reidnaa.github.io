@@ -77,7 +77,12 @@ header{
 .what {
     display: block !important;
     border-top: 2px solid;
-    padding-top: 20px;
+
+}
+
+.what a {
+    margin: 20px 0 0 20px;
+    font-size:20px;
 }
 
 .who-p{
