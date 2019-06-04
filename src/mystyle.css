@@ -74,6 +74,12 @@ header{
   .special{display:none !important;}
 }
 
+.what {
+    display: block !important;
+    border-top: 2px solid;
+    padding-top: 20px;
+}
+
 .who-p{
   display:inline-block;
   vertical-align: top;
