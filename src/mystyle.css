@@ -658,13 +658,19 @@ span.who-row {
 }
 
 .summary .item {
-    margin: 30px;
+    margin: 30px 30px 0;
     font-size: 1.3rem;
     color: #bfcafd;
-    text-decoration: underline;
+    
 }
 
+.item{
+  text-decoration: underline;
+}
 
+.skill ul:last-child {
+  min-width: 302px;
+}
 
 .twitter{
     display:none;
