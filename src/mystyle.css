@@ -656,7 +656,9 @@ span.who-row {
 .who-title{
    color: #bfcafd;
 }
-
+.more{
+  padding-left:30px;
+}
 .summary .item {
     margin: 30px 30px 0;
     font-size: 1.3rem;
