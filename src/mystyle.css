@@ -680,9 +680,7 @@ span.who-row {
     margin-top: 102px;
 }
 
-.underline{
-  text-decoration: underline;
-}
+
 /* Mobile Styles */
 
 @media(max-width:720px){
