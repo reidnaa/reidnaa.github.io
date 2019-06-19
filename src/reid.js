@@ -22,16 +22,14 @@ var w = $(window).width();
         return false;
     });
 }
-
-
 ///////////////
 
 
 setTimeout(
   function()
   {
-    $('.overlay').fadeOut(2000);
-  }, 2000);
+    $('.overlay').fadeOut(1000);
+  }, 1000);
 
 
 ///////////////
@@ -41,14 +39,13 @@ setTimeout(
 
 $('.timeline-Widget').css('background-color','transparent');
 setTimeout(
-  function()
-  {
+  function(){
 
-$('header, nav').fadeIn(5000);
-$('.contact').fadeIn(5000);
-$('.twitter').slideDown(5000);
+  $('header, nav').fadeIn(1000);
+  $('.contact').fadeIn(1000);
+  // $('.twitter').slideDown(1000);
 
-}, 2000);
+}, 1000);
 
 
 
@@ -184,4 +181,16 @@ setTimeout(
   $('#pdf').on('click', function(){
      window.open('./src/Reid_Naaykens_Resume_2019.pdf', '_blank');
    });
+});
+
+$.ajax({
+  url: "https://www.instagram.com/reidiabetic/?hl=en",
+  dataType: 'text',
+  success: function(data) {
+       var elements = $(".v1Nh3").html(data)[0].getElementsByTagName("ul")[0].getElementsByTagName("li");
+       for(var i = 0; i < elements.length; i++) {
+            var theText = elements[i].firstChild.nodeValue;
+            // Do something here
+       }
+  }
 });
