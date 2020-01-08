@@ -179,7 +179,7 @@ setTimeout(
   
 
   $('#pdf').on('click', function(){
-     window.open('./src/Reid_Naaykens_Resume_2019.pdf', '_blank');
+     window.open('./src/Reid_Naaykens_Resume_2020.pdf', '_blank');
    });
 });
 
