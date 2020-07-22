@@ -89,8 +89,8 @@ setTimeout(
   });
 
   $('#work').on('click', function(){
-    $('.summary').siblings().slideUp();
-    $('.summary').slideToggle('slow');
+    $('.work').siblings().slideUp();
+    $('.work').slideToggle('slow');
   });
 
   var w = $(window).width();
