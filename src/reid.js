@@ -88,6 +88,11 @@ setTimeout(
     $('.summary').slideToggle('slow');
   });
 
+  $('#work').on('click', function(){
+    $('.summary').siblings().slideUp();
+    $('.summary').slideToggle('slow');
+  });
+
   var w = $(window).width();
 
   if( w < 600){// checks if it is mobile
