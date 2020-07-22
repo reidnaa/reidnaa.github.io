@@ -313,7 +313,7 @@ h3 {
   cursor: pointer;
 }
 
-.summary, .education-content, .volunteer, .experience , .skills , .projects{
+.summary, .education-content, .volunteer, .experience , .skills , .projects, .work{
   display:none;
   position: absolute;
 }
